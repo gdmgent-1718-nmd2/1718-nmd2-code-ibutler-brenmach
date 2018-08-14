@@ -61,3 +61,6 @@ Op GitHub ga je naar je repository en klik op **Settings**. Scroll naar beneden 
 
  - Basissjabloon <https://gdmgent-1718-nmd2.github.io/1718-nmd2-code-ibutler>
  - Persoonlijke repo van Olivier Parent <https://gdmgent-1718-nmd2.github.io/1718-nmd2-code-ibutler-OlivierParent>
+
+  - Persoonlijke repo van Brent Macharis
+  <https://gdmgent-1718-nmd2.github.io/1718-nmd2-code-ibutler-brenmach>
