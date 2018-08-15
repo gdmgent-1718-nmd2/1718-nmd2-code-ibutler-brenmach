@@ -1,3 +1,171 @@
 @import
   "bootstrap-variables",                  // See _bootstrap-variables.scss
   "../_vendor/bootstrap/scss/bootstrap";  // See _vendor/bootstrap/scss/bootstrap.scss
+
+  .navbar{
+    padding: 10px 20px 0px 20px;
+  }
+  body {
+    background-color: $een;
+    color: $drie;
+    position: relative;
+    height: 100%;
+    min-height: 100vh;
+  }
+  footer a {
+    color: $twee !important;
+  }
+  footer{
+    width: 100%;
+    color: $twee !important;
+  }
+  .igoat{
+    color: $twee;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .navbar-light .navbar-toggler{
+    border: 3px solid $twee;
+    padding: 5px 10px 0px 10px;
+    margin:0;
+    color: $een;
+  }
+  h1 {
+    font-size: 0.5in;
+  }
+  a{
+    color: $drie;
+  }
+  a:hover{
+    text-decoration: none;
+    color: $drie;
+  }
+  .card{
+  background-color: $twee;
+  border: none;
+  margin: 10px;
+  }
+  .card:hover{
+    background-color: rgba(127, 182, 33, 0.85);
+    }
+  .card-body{
+    background-color: $drie;
+    color: black;
+  }
+  
+  .header-container {
+    position: relative;
+    margin-bottom: 15px;
+    }
+    
+  .header-container .header-text {
+    position: absolute;
+    bottom: 5px;
+    color: $drie;
+    }
+  
+  .header-container .btn_container{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: $drie;
+  }
+  .header-container .quote_container {
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    color: black;
+    }
+  .kaart {
+    margin-bottom: 15px;
+  }
+  .btn {
+    border-radius: 0.65rem;
+    border: none;
+    margin-bottom: 15px;
+  }
+  .btn-dark {
+    background-color: $een;
+  }
+  
+  .btn-secondary{
+    background-color: #C6C5B3;
+    color: black;
+  }
+  .btn-secondary:hover{
+    background-color: rgb(131, 130, 120);
+    color: $drie;
+  }
+  
+  .btn-primary {
+    background-color: rgba(37, 37, 37, 0.75);
+    color: $drie;
+    padding: 0.25rem 0.5rem;
+    margin-top: 10px;
+  }
+  .btn-primary:hover {
+    background-color: #C6C5B3;
+    color: $een;
+  }
+  .rechts{
+    text-align: right;
+  }
+  .embed-responsive{
+    margin-top: 15px;
+  }
+  
+  .algemene-voorwaarden{
+    text-decoration: underline;
+  }
+  //
+  //sprites
+  //
+  .sprite{
+    width:36px;
+    height:36px;
+    background-image:url(../../img/sprites.png);
+    background-repeat: no-repeat;
+    background-size: 108px;
+    background-color: transparent;
+  }
+  
+  .facebook .sprite{
+    background-position: 0px 0px;
+  }
+  .twitter .sprite{
+    background-position: -36px 0px;
+  }
+  .instagram .sprite{
+    background-position: -72px 0px;
+  }
+  .account .sprite{
+    background-position: 0px -36px;
+  }.winkelmand .sprite{
+    background-position: -36px -36px;
+  }
+  //
+  //
+  //
+  
+  
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) and (max-width: 991px) {
+    .header-container .quote_container {
+      font-size: 22px;
+      }
+  }
+  
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .header-container .quote_container {
+      font-size: 20px;
+      }
+  }
+  
+  // Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) {
+    .header-container .quote_container {
+      font-size: 23px;
+      }
+  }
