@@ -8,9 +8,6 @@
 // Color system
 //
 
-$indigo:  #6610f2;
-$primary: $indigo;
-
 $grijs:  rgba(0, 0, 0, 0.75);
 $een: $grijs;
 $groen:  rgb(125, 182, 33);
@@ -22,6 +19,5 @@ $drie: $wit;
 //
 // Font, line-height, and color for body text, headings, and more.
 
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
-
-$font-family-base: Merriweather, serif;
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+$font-family: 'Montserrat', sans-serif;
