@@ -5,6 +5,12 @@
 .navbar{
   padding: 10px 20px 0px 20px;
 }
+
+.panel-default {
+  background-color: red;
+  color:white;
+  margin: 50px;
+}
 body {
   background-color: $drie;
   color: $een;
@@ -18,6 +24,13 @@ footer a {
 footer{
   width: 100%;
   color: $twee !important;
+  background-color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  margin-top: 50px;
+  height: 40px;
 }
 .niwa{
   color: $twee;
@@ -80,11 +93,12 @@ margin: 10px;
   left: 20px;
   right: 20px;
   color: black;
-  margin-bottom: 50px;
   }
+
 .kaart {
   margin-bottom: 15px;
 }
+
 .btn {
   border-radius: 0.65rem;
   border: none;
