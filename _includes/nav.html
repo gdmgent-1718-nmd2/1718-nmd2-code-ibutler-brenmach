@@ -16,18 +16,20 @@
     </div>
 </nav>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <!-- websitelogo -->
+
+
+<!-- websitelogo -->
     <a class="navbar-brand" href="{{'index'|relative_url}}">
         <h1 class="niwa">庭 <span style="color:black">Niwa</span></h1>
     </a>
 
-    <!-- hamburger icoon -->
+<!-- hamburger icoon -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
         aria-expanded="false" aria-label="Toggle navigation">
-        <h3>MENU</h3>
+        <h3>+</h3>
     </button>
 
-    <!-- hoofdnavigatie -->
+<!-- hoofdnavigatie -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             {% assign links = site.data.navigation %} {% for link in links %} {% assign class = nil %} {% if link.url contains page.url

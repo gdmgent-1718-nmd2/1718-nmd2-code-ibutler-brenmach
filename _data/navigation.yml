@@ -1,4 +1,10 @@
+- title: Home
+  url: /index.html
 - title: Over ons
-  url: /over-ons.html
+  url: //over-ons.html
+- title: Realisaties
+  url: /realisaties.html
 - title: Contact
   url: /contact.html
+- title: Offerteaanvraag
+  url: /offerteaanvraag.html
